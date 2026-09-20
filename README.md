@@ -87,8 +87,8 @@ python lanhu_to_json.py
 | `CANVAS_ONLY` | `True` | `True`: 仅截取画布区域；`False`: 截取包含蓝湖侧边栏的完整网页。 |
 | `DELAY_BETWEEN_TABS` | `3` | 切换 Tab 后的等待时间（秒），防止页面未渲染完就截图。 |
 | `SKIP_EXISTING` | `True` | 开启断点续传。若某 Tab 的截图和 JSON 均已存在，则跳过。 |
-| `TAB_SELECTOR` | `".page-list-item"` | 蓝湖左侧/顶部页面列表的 DOM 选择器。蓝湖改版时需用 F12 重新获取。 |
-| `CANVAS_SELECTOR` | `".board-canvas..."` | 蓝湖画布区域的 DOM 选择器。 |
+| `TAB_SELECTOR` | `".group_item_box > .image_name"` | 蓝湖左侧/顶部页面列表的 DOM 选择器。蓝湖改版时需用 F12 重新获取。 |
+| `CANVAS_SELECTOR` | `".detail_box"` | 蓝湖画布区域的 DOM 选择器。 |
 
 ---
 
