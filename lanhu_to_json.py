@@ -34,8 +34,8 @@ SKIP_EXISTING = True          # 断点续传
 MAX_RETRY = 2                 # 失败重试次数
 
 # 6. 选择器（蓝湖改版时需 F12 调整）
-TAB_SELECTOR = ".page-list-item"
-CANVAS_SELECTOR = ".board-canvas, canvas, [class*='canvas']"
+TAB_SELECTOR = ".group_item_box > .image_name"
+CANVAS_SELECTOR = ".detail_box"
 
 # ==================== 配置区结束 ====================
 
